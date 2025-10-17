@@ -1,0 +1,36 @@
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 6px double black;
+    text-align: center;
+}
+
+#titleblock {
+    margin-bottom: 1em;
+}
+
+ul {
+    max-width: 200px;
+    margin: 0 auto;
+    border: 3px dotted black;
+    text-align: left;
+}
+
+li span {
+  
+}
+
+h1 {
+    max-width: 150px;
+    margin: 0 auto;
+    border:6px double black;
+    color: blue;
+}
+
+h3 {
+    max-width: 150px;
+    margin: 0 auto;
+    border:3px solid black;
+    color: blue;
+}
