@@ -1,36 +1,100 @@
+
+*{
+   
+}
+
 body {
+    background-color: darkslateblue;
+}
+
+a{
+    color: tomato;
+}
+
+
+.mainblock {
+    box-sizing: border-box;
+    background-color: darkslategrey;
     max-width: 600px;
     margin: 0 auto;
-    padding: 10px;
+    padding: 30px;
     border: 6px double black;
     text-align: center;
 }
 
-#titleblock {
+.titleblock {
+    padding: 1em;
     margin-bottom: 1em;
 }
 
-ul {
+.imgborder {
+    border: 9px double tomato;
+}
+
+.textbox {
+    background-color: rgb(61, 117, 139);
+    border: 3px solid black;
+    padding: 0 auto; 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+   
+}
+.listbox1{
+    background-color: rgb(61, 117, 139);
+    box-sizing: content-box;
     max-width: 200px;
     margin: 0 auto;
     border: 3px dotted black;
     text-align: left;
+    padding: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-li span {
-  
+.listbox2{
+    background-color: rgb(61, 117, 139);
+    border: 3px solid black;
+    padding: 0 auto; 
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+
+li {
+
 }
 
 h1 {
-    max-width: 150px;
+    max-width: 300px;
     margin: 0 auto;
     border:6px double black;
-    color: blue;
+    color:tomato;
+    background-color: darkslateblue;
 }
 
 h3 {
-    max-width: 150px;
+    max-width: 300px;
     margin: 0 auto;
+    padding: 1em;
     border:3px solid black;
-    color: blue;
+    color: tomato;
+    background-color: darkslateblue;
+}
+
+button {
+    box-sizing: border-box;
+    color: tomato;
+    background-color: darkslateblue;
+    border:3px solid black;
+    padding:1em;
+}
+
+button:hover{
+    box-sizing: border-box;
+    color: tomato;
+    background-color: darkslategrey;
+    border:3px solid tomato;
+    padding:1em;
 }
