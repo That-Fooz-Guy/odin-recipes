@@ -1,8 +1,4 @@
 
-*{
-   
-}
-
 body {
     background-color: darkslateblue;
 }
@@ -24,11 +20,16 @@ a{
 
 .titleblock {
     padding: 1em;
+    margin-top: 1em;
     margin-bottom: 1em;
 }
 
 .imgborder {
     border: 9px double tomato;
+}
+
+.description {
+    background-color: rgb(61, 117, 139);
 }
 
 .textbox {
@@ -62,10 +63,6 @@ a{
     padding-right: 1em;
 }
 
-li {
-
-}
-
 h1 {
     max-width: 300px;
     margin: 0 auto;
@@ -83,18 +80,18 @@ h3 {
     background-color: darkslateblue;
 }
 
-button {
+.button1{
+    display:block;
     box-sizing: border-box;
+    max-width: 200px;
     color: tomato;
     background-color: darkslateblue;
     border:3px solid black;
+    margin: 0 auto;
     padding:1em;
 }
 
-button:hover{
-    box-sizing: border-box;
-    color: tomato;
+.button1:hover{
     background-color: darkslategrey;
     border:3px solid tomato;
-    padding:1em;
 }
