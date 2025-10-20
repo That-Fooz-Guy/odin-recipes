@@ -15,6 +15,7 @@ img {
     width: auto;
     height: auto;
     margin: auto;
+    object fit: contain;
 }
 
 .mainblock {
