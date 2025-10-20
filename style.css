@@ -8,6 +8,14 @@ a{
     color: tomato;
 }
 
+/*This is supposed to keep aspect ratios while resizing to fit the image better*/
+img {
+    display: block;
+    max-width: 300px;
+    max-height: 275px;
+    width: auto;
+    height: auto;
+}
 
 .mainblock {
     box-sizing: border-box;
